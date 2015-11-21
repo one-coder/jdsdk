@@ -1,8 +1,8 @@
 {
-  "appKey": "E02B9937950FE5CA0A013BB9428C7798",
-  "appSecret": "ad399a4fa74042aa8a81eb4227cf4661",
-  "redirectUri": "http://jddev.one-coder.com/redirect.php",
-  "state": "1234",
+  "appKey": "",
+  "appSecret": "",
+  "redirectUri": "",
+  "state": "",
   "apiUrlHost": "https://api.jd.com/routerjson",
   "jsonParamKey": "360buy_param_json",
   "version": "2.0",
