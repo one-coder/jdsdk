@@ -1,0 +1,262 @@
+{
+  "1": {
+    "en": "missing system error",
+    "zh_CN": "服务不可用"
+  },
+  "2": {
+    "en": "App Call Limited",
+    "zh_CN": "限制时间内调用失败次数"
+  },
+  "3": {
+    "en": "Forbidden Request",
+    "zh_CN": "请求被禁止"
+  },
+  "4": {
+    "en": "Missing Version",
+    "zh_CN": "缺少版本参数"
+  },
+  "5": {
+    "en": "Unsupported Version",
+    "zh_CN": "不支持的版本号"
+  },
+  "6": {
+    "en": "Invalid Version",
+    "zh_CN": "非法的版本参数"
+  },
+  "7": {
+    "en": "Missing Timestamp",
+    "zh_CN": "缺少时间戳参数"
+  },
+  "8": {
+    "en": "Invalid Timestamp",
+    "zh_CN": "非法的时间戳参数"
+  },
+  "9": {
+    "en": "Missing VenderId",
+    "zh_CN": "缺少商家Id参数"
+  },
+  "10": {
+    "en": "Invalid VenderId",
+    "zh_CN": "无效的商家Id参数"
+  },
+  "11": {
+    "en": "Missing Signature",
+    "zh_CN": "缺少签名参数"
+  },
+  "12": {
+    "en": "Invalid Signature",
+    "zh_CN": "无效签名"
+  },
+  "13": {
+    "en": "Invalid Format",
+    "zh_CN": "无效数据格式"
+  },
+  "14": {
+    "en": "Missing Method",
+    "zh_CN": "缺少方法名参数"
+  },
+  "15": {
+    "en": "Invalid Method",
+    "zh_CN": "不存在的方法名"
+  },
+  "16": {
+    "en": "Missing TradeNo",
+    "zh_CN": "缺少流水号参数"
+  },
+  "17": {
+    "en": "",
+    "zh_CN": "流水号已经存在"
+  },
+  "18": {
+    "en": "Missing access_token",
+    "zh_CN": "缺少access_token参数"
+  },
+  "19": {
+    "en": "Invalid access_token",
+    "zh_CN": "无效access_token"
+  },
+  "20": {
+    "en": "Missing app_key",
+    "zh_CN": "缺少app_key参数"
+  },
+  "21": {
+    "en": "Invalid app_key",
+    "zh_CN": "无效app_key"
+  },
+  "22": {
+    "en": "the franchisor not businessmen",
+    "zh_CN": "授权者不是商家"
+  },
+  "23": {
+    "en": "API stop",
+    "zh_CN": "该API已经停用,系统升级，将接口临时关闭，升级完毕后即可正常调用"
+  },
+  "24": {
+    "en": "cannot use this API",
+    "zh_CN": "无权调用API"
+  },
+  "25": {
+    "en": "this application is not on-line",
+    "zh_CN": "此应用不是上线状态"
+  },
+  "26": {
+    "en": "Missing mobile",
+    "zh_CN": "缺少mobile参数"
+  },
+  "27": {
+    "en": "Invalid mobile",
+    "zh_CN": "无效mobile"
+  },
+  "43": {
+    "en": "system error",
+    "zh_CN": "系统处理错误"
+  },
+  "50": {
+    "en": "invalid get program",
+    "zh_CN": "无效调用"
+  },
+  "60": {
+    "en": "parameter {0} is not valid ,please refer to the help document and confirm",
+    "zh_CN": "参数｛0｝不合法，请参照帮助文档确认！"
+  },
+  "61": {
+    "en": "parameter {0} is not valid ,please refer to the help document and confirm",
+    "zh_CN": "参数｛0｝值不合法，请参照帮助文档确认！"
+  },
+  "62": {
+    "en": "Missing Version",
+    "zh_CN": "json转换时错误，错误的请求参数"
+  },
+  "63": {
+    "en": "json格式不合法",
+    "zh_CN": "json格式不合法"
+  },
+  "64": {
+    "en": "this type of businesses have no right to call this interface",
+    "zh_CN": "此类型商家无权调用本接口"
+  },
+  "65": {
+    "en": "platform connecting service timeout",
+    "zh_CN": "平台连接后端服务超时"
+  },
+  "66": {
+    "en": "platform to connect to the back-end service not available",
+    "zh_CN": "平台连接后端服务不可用"
+  },
+  "67": {
+    "en": "platform connecting service process unknown exception information",
+    "zh_CN": "平台连接后端服务处理过程中出现未知异常信息"
+  },
+  "68": {
+    "en": "validation of optional field anomaly information",
+    "zh_CN": "验证可选字段异常信息"
+  },
+  "69": {
+    "en": "failed to get data",
+    "zh_CN": "获取数据失败"
+  },
+  "70": {
+    "en": "missing order out storage",
+    "zh_CN": "该订单正在出库中"
+  },
+  "71": {
+    "en": "Id is not belong to the special vender",
+    "zh_CN": "当前的ID不属于此商家"
+  },
+  "72": {
+    "en": "The current user is not the type of businesses (FBP, SOP, etc.)",
+    "zh_CN": "当前的用户不是此类型（如FBP, SOP等）的商家"
+  },
+  "73": {
+    "en": " this api is increased in value;if you want to visit,please put your app on our Cloud platform",
+    "zh_CN": "该api是增值api，请将您的app入住云鼎平台方可调用"
+  },
+  "101": {
+    "en": "",
+    "zh_CN": "没找到应用(确认应用是否已“上线运行”；确认应用类型是否为“通用应用”，“无线应用”、“网站应用”无法被授权)"
+  },
+  "201": {
+    "en": "",
+    "zh_CN": "您的IP服务受限，请联系客服解决"
+  },
+  "202": {
+    "en": "",
+    "zh_CN": "请输入用户名"
+  },
+  "203": {
+    "en": "",
+    "zh_CN": "用户名不存在"
+  },
+  "204": {
+    "en": "",
+    "zh_CN": "请输入密码"
+  },
+  "205": {
+    "en": "",
+    "zh_CN": "登录信息与密码不匹配"
+  },
+  "206": {
+    "en": "",
+    "zh_CN": "用户名与密码不匹配，还可尝试{0}次，如失败账户将被冻结2小时"
+  },
+  "207": {
+    "en": "",
+    "zh_CN": "登录失败超过6次，账户已被冻结2个小时"
+  },
+  "208": {
+    "en": "",
+    "zh_CN": "容器检查登录用户不在应授权用户中(个人账号不能给商家应用授权)"
+  },
+  "209": {
+    "en": "",
+    "zh_CN": "未知异常，请联系管理员"
+  },
+  "251": {
+    "en": "",
+    "zh_CN": "调用验证登录信息的接口失败"
+  },
+  "301": {
+    "en": "",
+    "zh_CN": "缺少responsetype参数或者为空"
+  },
+  "302": {
+    "en": "",
+    "zh_CN": "缺少clientId参数或者为空"
+  },
+  "303": {
+    "en": "",
+    "zh_CN": " 缺少redirectUri参数或者为空"
+  },
+  "304": {
+    "en": "",
+    "zh_CN": "防止session伪造(在授权过程中点击了回退按钮)"
+  },
+  "305": {
+    "en": "",
+    "zh_CN": "拼写的redirect_uri和注册应用的“回调页面URL”不一致"
+  },
+  "401": {
+    "en": "",
+    "zh_CN": "没有此流程的认证权限(应用使用了错误的授权方式进行授权)"
+  },
+  "402": {
+    "en": "",
+    "zh_CN": "错误的code(1、code码超时，code码时效为5分钟；2、测试环境与正式环境code码混用；3、自己编造的code码)"
+  },
+  "403": {
+    "en": "",
+    "zh_CN": "url不匹配(请求url与开发者中心创建应用时填写的url不一致；2、没有填写url)"
+  },
+  "404": {
+    "en": "",
+    "zh_CN": "错误的请求(JOS授权安全机制限制：用户在授权页面输入账号密码出错后，重新在原页面输入账号密码均会报404。处理方法：请重新获取授权页面，或回退两次即可)"
+  },
+  "405": {
+    "en": "",
+    "zh_CN": "用户[xxx]无权给app[C05EBAAB019CC6E91D44D45834ER]授权，请将报错信息，包含用户名及appkey发送至jos@jd.com申请绑定授权关系"
+  },
+  "10100046": {
+    "en": "type of cooperation is wrong",
+    "zh_CN": "合作类型不正确"
+  }
+}
