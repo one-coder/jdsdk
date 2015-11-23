@@ -9,11 +9,11 @@
   "charSet": "UTF8",
   "connTimeout": "60",
   "readTimeout": "200",
-  "accessToken": "61994c9d-b327-46e5-b8e5-e68c4b86d82d",
+  "accessToken": "",
   "expiresIn": 29780774,
-  "refreshToken": "69fe00d2-8fa1-4f76-9e79-16d929b951ce",
+  "refreshToken": "",
   "time": "1447148109943",
-  "tokenType": "bearer",
-  "uid": "9746782466",
-  "userNick": "jdjinxinupy"
+  "tokenType": "",
+  "uid": "",
+  "userNick": ""
 }

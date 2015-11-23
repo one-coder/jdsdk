@@ -14,5 +14,5 @@ class JFactory {
     {
         return JConfig::getInstance();
     }
-    
+
 }
