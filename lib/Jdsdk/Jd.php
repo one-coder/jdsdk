@@ -43,6 +43,7 @@ class Jd {
     {
         // Check that the class namespace starts with "Jd"
         if (strpos($class, 'Jd') !== 0) return;
+        $file = str_replace('Jd\\', '', $class);
         $file = str_replace('\\', DIRECTORY_SEPARATOR, $class);
 
         if (file_exists(JD_BASE_PATH . DIRECTORY_SEPARATOR . $file . '.php'))
