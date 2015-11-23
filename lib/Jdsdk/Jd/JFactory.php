@@ -14,9 +14,5 @@ class JFactory {
     {
         return JConfig::getInstance();
     }
-
-
-    //public static function createJdError
-
-
+    
 }
