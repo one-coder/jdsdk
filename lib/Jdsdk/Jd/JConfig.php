@@ -134,6 +134,7 @@ class JConfig {
     {
         if ($this->editStatus)
         {
+            $this->editStatus = 0;
             return file_put_contents(JD_CONFIG_FILE_PATH, json_encode($this->configArr));
         }
 
