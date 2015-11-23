@@ -16,14 +16,6 @@ define('JD_LOG_PATH', JD_BASE_PATH . '/Jd/Log/');
 define('JD_CONFIG_FILE_PATH', JD_DATA_PATH . 'config.json');
 define('JD_ERROR_FILE_PATH', JD_DATA_PATH . 'error.json');
 
-/**
- * Exception code define
- */
-define('JD_EXCEPTION_ERROR', '');
-define('JD_EXCEPTION_WARING', '');
-define('JD_EXCEPTION_INFO', '');
-
-
 
 class Jd {
 
@@ -43,7 +35,7 @@ class Jd {
     {
         // Check that the class namespace starts with "Jd"
         if (strpos($class, 'Jd') !== 0) return;
-        $file = str_replace('Jd\\', '', $class);
+
         $file = str_replace('\\', DIRECTORY_SEPARATOR, $class);
 
         if (file_exists(JD_BASE_PATH . DIRECTORY_SEPARATOR . $file . '.php'))
