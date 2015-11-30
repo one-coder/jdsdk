@@ -1,6 +1,5 @@
 .DS_Store
 /dev/*
-/lib/Jdsdk/Jd/Data/*
 
 # IDE Files
 #-------------------------
