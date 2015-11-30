@@ -5,7 +5,9 @@
  */
 
 
-require_once 'autoloader.php';
+require_once '../lib/Jdsdk/Jd.php';
+// 自动加载
+Jd::registerAutoloader();
 
 
 // 实例化接口对应API

@@ -10,7 +10,9 @@
   * 如果回调错误, Jd内部则直接处理了异常
   */
 
-require_once 'autoloader.php';
+require_once '../lib/Jdsdk/Jd.php';
+// 自动加载
+Jd::registerAutoloader();
 
 // 处理Oauth2回调
 Jd::redirect();

@@ -15,6 +15,7 @@ define('JD_DATA_PATH', JD_BASE_PATH . '/Jd/Data/');
 define('JD_LOG_PATH', JD_BASE_PATH . '/Jd/Log/');
 define('JD_CONFIG_FILE_PATH', JD_DATA_PATH . 'config.json');
 define('JD_ERROR_FILE_PATH', JD_DATA_PATH . 'error.json');
+define('JD_CACERT_FILE_PATH', JD_BASE_PATH . '/Jd/Net/cacert.pem');
 
 
 class Jd {

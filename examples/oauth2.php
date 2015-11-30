@@ -22,7 +22,9 @@
   *     // 如果配置被你弄乱或者丢失,可以从config.json.bak文件中恢复
   */
 
-require_once 'autoloader.php';
+require_once '../lib/Jdsdk/Jd.php';
+// 自动加载
+Jd::registerAutoloader();
 
 // 发送oauth2授权请求
 Jd::oauth2();

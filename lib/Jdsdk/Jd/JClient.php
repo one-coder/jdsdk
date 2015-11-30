@@ -2,6 +2,7 @@
 namespace Jd;
 
 use Jd\Api\IApi;
+use Jd\Net\Requests;
 
 class JClient {
 
@@ -80,14 +81,12 @@ class JClient {
         $this->requestUrl = $this->createRequestUrl($this->urlParams);
 
         // Send post request
-        $this->requests = \Requests::post($this->requestUrl);
+        $this->requests = Requests::request($this->requestUrl);
 
-
-        //$error = JdError::getInstance();
         // Http request success
-        if (200 === $this->requests->status_code)
+        if (200 === $this->requests->httpCode)
         {
-            $respJsonStr = $this->requests->body;
+            $respJsonStr = $this->requests->response;
             $respJsonObj = json_decode($respJsonStr);
 
             /**
@@ -96,9 +95,7 @@ class JClient {
              */
             if (isset($respJsonObj->error_response))
             {
-                return $result = new JResult(false,
-                    $this->urlParams['method'],
-                    $this->requestUrl,
+                return $result = new JResult(false, $this->urlParams['method'], $this->requestUrl,
                     $respJsonObj->error_response->code,
                     $respJsonObj->error_response->zh_desc
                 );
@@ -109,11 +106,9 @@ class JClient {
                 $this->requestUrl, '0', '', $respJsonStr);
         }
 
-        return new JResult(false,
-            $this->urlParams['method'],
-            $this->requestUrl,
-            $this->requests->status_code,
-            $this->requests->raw);
+        return new JResult(false, $this->urlParams['method'], $this->requestUrl,
+            $this->requests->httpCode,
+            $this->requests->response);
     }
 
 
